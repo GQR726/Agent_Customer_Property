@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:id="@+id/txt1"
+            android:hint=""
+            android:enabled="false" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="330dp"
+            android:id="@+id/txtUserName"
+            android:hint="UserName"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/darker_gray" />
+        <TextView
+            android:inputType="numberSigned|numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:id="@+id/txt2"
+            android:hint=""
+            android:enabled="false"/>
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:id="@+id/txtEmail"
+            android:hint="Email"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:inputType="numberSigned|numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:id="@+id/txt3"
+            android:hint=""
+            android:enabled="false"/>
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:id="@+id/txtPassword"
+            android:hint="Password"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/darker_gray" />
+        <TextView
+            android:inputType="numberSigned|numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/txt4"
+            android:hint=""
+            android:enabled="false"/>
+        <Button
+            android:text="Login"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn1"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/holo_red_light" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/txt5"
+            android:hint=""
+            android:enabled="false"/>
+        <Button
+            android:text="Sign up now"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn2"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</RelativeLayout>
